@@ -9,7 +9,8 @@ class RealmRegionData(NamedTuple):
 region_data_table: Dict[str, RealmRegionData] = {
     "Menu": RealmRegionData(["Nexus"]),
     "Nexus": RealmRegionData(["Realm"]),
-    "Realm": RealmRegionData([]),
+    "Realm": RealmRegionData(["Pirate's Cave"]),
+    "Pirate's Cave": RealmRegionData([]),
 }
 
 def get_exit(region, exit_name):

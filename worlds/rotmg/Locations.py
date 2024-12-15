@@ -19,6 +19,18 @@ location_data_table: Dict[str, RealmLocationData] = {
         # ~ region="Clock Town",
         # ~ address=0x3469420000037
     # ~ ),
+    "Pirate's Cave Chest Item #1": RealmLocationData(
+        region="Pirate's Cave",
+        address=0x1
+    ),
+    "Pirate's Cave Dreadstump #1": RealmLocationData(
+        region="Pirate's Cave",
+        address=0x2
+    ),
+    "Pirate's Cave Dreadstump #2": RealmLocationData(
+        region="Pirate's Cave",
+        address=0x3
+    ),
     "Defeat Oryx": RealmLocationData(
         region="Realm",
         locked_item="Victory"

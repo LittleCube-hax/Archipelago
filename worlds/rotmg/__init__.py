@@ -84,7 +84,7 @@ class RealmWorld(World):
             mw.get_location(location_name, player).place_locked_item(locked_item)
 
     def get_filler_item_name(self) -> str:
-        return ""
+        return "Steel Dagger"
 
     def set_rules(self) -> None:
         player = self.player
