@@ -405,6 +405,10 @@ item_data_table: Dict[str, MMRItemData] = {
         type=ItemClassification.progression,
         num_exist=3
     ),
+    "Bombchu Bag": MMRItemData(
+        code=0x3469420000074,
+        type=ItemClassification.progression
+    ),
     "Bundle of 30 Arrows": MMRItemData(
         code=0x346942000001F,
         type=ItemClassification.filler,
@@ -433,7 +437,7 @@ item_data_table: Dict[str, MMRItemData] = {
     "Red Rupee": MMRItemData(
         code=0x3469420000004,
         type=ItemClassification.filler,
-        num_exist=28
+        num_exist=27
         # ~ num_exist=29
     ),
     "Purple Rupee": MMRItemData(
