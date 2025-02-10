@@ -20,11 +20,15 @@ item_data_table: Dict[str, RealmItemData] = {
         # ~ type=ItemClassification.progression,
         # ~ can_create=lambda options: options.fairysanity.value
     # ~ ),
+    "LittleCube": RealmItemData(
+        code=0x310c,
+        type=ItemClassification.progression,
+        num_exist=13
+    ),
     "Steel Dagger": RealmItemData(
         code=0xa14,
         type=ItemClassification.filler,
-        num_exist=3,
-        can_create=lambda options: True
+        num_exist=2
     ),
     "Victory": RealmItemData(
         type=ItemClassification.progression,
